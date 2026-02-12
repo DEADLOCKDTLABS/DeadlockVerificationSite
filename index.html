@@ -121,10 +121,7 @@
     }
     
     function handleVerify() {
-      const clientId = '1471232243447103508';
-      const redirectUri = encodeURIComponent('https://deadlockdtlabs.github.io/DeadlockVerificationSite/');
-      const scope = encodeURIComponent('identify email');
-      window.location.href = `https://discord.com/oauth2/authorize?client_id=${clientId}&response_type=code&redirect_uri=${redirectUri}&scope=${scope}`;
+      window.location.href = 'https://discord.com/oauth2/authorize?client_id=1471232243447103508&response_type=code&redirect_uri=https%3A%2F%2Fdeadlockdtlabs.github.io%2FDeadlockVerificationSite%2Fverify&scope=identify+email';
     }
   </script>
 </body>
